@@ -1,0 +1,21 @@
+/*   
+Theme Name: Nombre del tema
+Theme URI: www.urldeltema.com
+Description: Descripción del tema
+Author: Nombre del autor
+Author URI: www.paginadelautor.com
+Version: 1.0.0
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: kennyPoncio
+*/
+/*----------------------------*\
+    $ESTANDARES INICIALES
+/*----------------------------*/
+@import "css/estandares-iniciales/normalize.css";
+@import "css/estandares-iniciales/estandares-propios.css";
+
+/*----------------------------*\
+    $ESTILOS COMPLILADOS
+/*----------------------------*/
+@import "css/compiled/compiled.css";
