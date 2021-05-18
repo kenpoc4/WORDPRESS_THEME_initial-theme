@@ -8,7 +8,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, p, .p {
     margin: 0;
 }
 h1, .h1, h2, .h2 {
-    font-family: $f-titulos;
+    font-family: $f-base
 }
 h1, .h1 {
     font-size: 3.5vw; 
@@ -37,7 +37,7 @@ h2, .h2 {
     }
 }
 h3, .h3 {
-    font-family: $f-botones;
+    font-family: $f-base;
     font-size: 2.5vw;
     margin: 1.3vw 0;
     @include mediaq-en( $q-1200) {
@@ -51,7 +51,7 @@ h3, .h3 {
     }
 }
 h4, .h4 {
-    font-family: $f-contenido;
+    font-family: $f-base;
     margin: 1.2vw 0;
     @include mediaq-en( $q-1200) {
         font-size: 2vw;
@@ -65,7 +65,7 @@ h4, .h4 {
 }
 p, .p {
     font-size: 1.3vw;
-    font-family: $f-contenido;
+    font-family: $f-base;
     font-weight: 500;
     opacity: .8;
     margin: 1.2vw 0;
@@ -80,8 +80,8 @@ p, .p {
     }
 }
 a {
-    font-family: $f-botones;
-    color: $c-naranja;
+    font-family: $f-base;
+    color: $c-negro;
     font-size: 1.3vw;
     font-weight: 500;
     opacity: .75;
@@ -97,11 +97,11 @@ a {
         font-size: 3.25vw;
     }
     &:hover {
-        border-bottom: 1px solid $c-naranja;
+        border-bottom: 1px solid $c-negro;
     }
 }
 span, .span {
-    font-family: $f-contenido;
+    font-family: $f-base;
     font-size: 1.2vw;
     font-weight: bold;
     opacity: .5;

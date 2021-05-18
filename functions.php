@@ -7,7 +7,7 @@ function no_importa_el_nombre_de_esta_funcion(){
     wp_enqueue_style('style', get_stylesheet_uri(), array(  ), '1.0.0');
     
     // Registro de fuentes
-    wp_enqueue_style( 'fuente-montserrat', 'https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap', array(), '1.0.0');
+    wp_enqueue_style( 'fuente-open', 'https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600;700&display=swap', array(), '1.0.0');
 
     // Registro de archivo JS
     wp_enqueue_script( 'scripts', get_template_directory_uri() . '/js/scripts.js', array( 'jquery' ), '1.0.0', true);
