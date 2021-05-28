@@ -91,7 +91,7 @@ h3, .h3 {
 }
 
 h4, .h4 {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
   margin: 1.2vw 0;
 }
 @media screen and (max-width: 1300px) {
@@ -112,8 +112,8 @@ h4, .h4 {
 
 p, .p {
   font-size: 1.3vw;
-  font-family: "Open Sans", sans-serif;
-  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
   opacity: 0.8;
   margin: 1.2vw 0;
 }
@@ -134,11 +134,10 @@ p, .p {
 }
 
 a {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #03363d;
   font-size: 1.3vw;
-  font-weight: 500;
-  opacity: 0.75;
+  font-weight: bold;
   line-height: 0.8;
   margin: 1.2vw 0;
 }
@@ -162,10 +161,9 @@ a:hover {
 }
 
 span, .span {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 1.2vw;
   font-weight: bold;
-  opacity: 0.5;
 }
 @media screen and (max-width: 1300px) {
   span, .span {
